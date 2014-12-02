@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Custom Gadget" /> 
+<Content type="html"><![CDATA[ 
+       
+<form name="buyers">
+<select  name="example3" size=1>
+    <option selected value = "">Select here</option>
+    <option value="http://www.lori-v.com/buyers.htm">Buyers Home</option>
+     <option value="http://www.lori-v.com/closingcosts.htm">Estimated Closing Costs</option>
+    </select>&nbsp;<input type="button" value="Go!" onClick="gothere3()"> <br>
+  </form>
+
+<script language="javascript">
+<!--
+function gothere3(){
+var thebox=document.buyers
+location=thebox.example3.options[thebox.example3.selectedIndex].value
+}
+//-->
+</script>
+
+]]></Content> 
+</Module>
